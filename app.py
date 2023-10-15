@@ -6,5 +6,4 @@ app =  Flask(__name__)
 @app.route("/")
 
 def hellow_world():
- # return f"<p> Today is {date.today().strftime('%d/%m/%Y')}</p>"
-  return f"<p> Today is {date.today()}</p>"
+  return f"<p> Today is {date.today().strftime('%d/%m/%Y  %A')}</p>"
