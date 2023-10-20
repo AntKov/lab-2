@@ -8,11 +8,10 @@ app =  Flask(__name__)
 
 def hellow_world():
 
-  todayDoW=7-int(date.today().strftime('%u'))
-#  return f"<p> Today is {date.today().strftime('%d/%m/%Y  %A')}</p>   "
-#  <p> it is {todayDoW} till next Sunay </p> 
+  toSaturdat=7-int(date.today().strftime('%u'))
+
  
- if  todayDoW==0:
+ if  toSaturdat==0:
    return f"<p> Today is Sunday </p>   "
  else: 
-  return f"<p> {todayDoW} </p>   "
+  return f"<p> {toSaturdat} </p>   "
