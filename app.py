@@ -8,7 +8,7 @@ app =  Flask(__name__)
 
 def hellow_world():
 
-  todayDoW=7-num(date.today().strftime('%u'))
+  todayDoW=7-int(date.today().strftime('%u'))
 #  return f"<p> Today is {date.today().strftime('%d/%m/%Y  %A')}</p>   "
 #  <p> it is {todayDoW} till next Sunay </p> 
   return f"<p> 7 </p>   "
