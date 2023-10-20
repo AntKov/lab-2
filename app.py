@@ -11,4 +11,8 @@ def hellow_world():
   todayDoW=7-int(date.today().strftime('%u'))
 #  return f"<p> Today is {date.today().strftime('%d/%m/%Y  %A')}</p>   "
 #  <p> it is {todayDoW} till next Sunay </p> 
+ 
+ if  todayDoW==0:
+   return f"<p> Today is Sunday </p>   "
+ else: 
   return f"<p> {todayDoW} </p>   "
