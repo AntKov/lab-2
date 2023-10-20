@@ -9,4 +9,4 @@ def hellow_world():
  # todayDoW=7-date.today().strftime('%u')
 #  return f"<p> Today is {date.today().strftime('%d/%m/%Y  %A')}</p>   "
 #  <p> it is {todayDoW} till next Sunay </p> 
-  return f"<p> date.today().strftime('%u')</p>   "
+  return f"<p> {date.today().strftime('%u')}</p>   "
