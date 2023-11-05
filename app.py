@@ -14,4 +14,4 @@ def hellow_world():
  if  toSaturdat==0:
    return f"<p> Today is Sunday </p>   "
  else: 
-  return f"<p> {toSaturdat} </p>   "
+  return f"<p> {toSaturdat}  day(s) left until the nearest Sunday</p>"
