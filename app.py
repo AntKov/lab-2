@@ -10,7 +10,6 @@ def hellow_world():
 
   toSaturdat=7-int(date.today().strftime('%u'))
 
- 
  if  toSaturdat==0:
    return f"<p> Today is Sunday </p>   "
  else: 
