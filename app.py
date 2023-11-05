@@ -8,9 +8,9 @@ app =  Flask(__name__)
 
 def hellow_world():
 
-  toSaturdat=7-int(date.today().strftime('%u'))
+  toSaturday=7-int(date.today().strftime('%u'))
 
- if  toSaturdat==0:
-   return f"<p> Today is Sunday </p>   "
+ if  toSaturday==0:
+   return f"<p> Today is Saturday </p>   "
  else: 
-  return f"<p> {toSaturdat}  day(s) left until the nearest Sunday</p>"
+  return f"<p> {toSaturday}  day(s) left until the nearest Saturday</p>"
